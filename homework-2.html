@@ -21,13 +21,20 @@ function team(home, away) {
 if(home > away){
   console.log('The home team won.');
 }
-else if(away > home){
+if(away > home){
   console.log('The away team won.');
+}
+else if(away == home){
+  console.log("It is a tie.")
 }
 }
 
-team(5,4);
 team(4,5);
+team(5,4);
+team(5,5);
+
+
+
 
   </script>
 </body>
